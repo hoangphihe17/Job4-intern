@@ -1,0 +1,19 @@
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.only {
+  width: auto;
+}
+
+.dp-none {
+  display: none;
+}

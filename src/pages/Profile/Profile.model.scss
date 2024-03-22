@@ -1,0 +1,202 @@
+.dp-none{
+  display: none !important;
+}
+
+.mess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-size: 16px;
+  background-color: chartreuse;
+  opacity: .7;
+}
+
+.profile {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #D9D9D9;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 46px;
+}
+
+.sidebar img {
+  margin-bottom: 46px;
+  margin: 0 auto 49px;
+}
+
+.sidebar a {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #212353;
+  margin-top: 12px;
+}
+
+.sidebar button{
+  background-color: #D9D9D9;
+  border: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #212353;
+  margin-top: 12px;
+  text-align: start;
+}
+
+.profile-content {
+  flex: 1;
+  padding:100px;
+  overflow: scroll;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-fillers {
+  display: flex;
+  width: 670px;
+  justify-content: space-between;
+}
+
+.list-tags {
+  display: none;
+  min-width: 330px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 4px 12px;
+  line-height: 38px;
+  border-radius: 6px;
+  max-height: 150px;
+  overflow: scroll;
+}
+
+.list-tags button {
+  border:none;
+  color: #000;
+  line-height: 38px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.list-tags button:hover {
+  color: #fff;
+  background-color: #ccc;
+  padding: 0 12px;
+  line-height: 38px;
+  border-radius: 6px;
+}
+
+.input-tags {
+  border-radius: 6px;
+  border: 1px solid #000000;
+  width: 330px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+}
+
+.input-tags input{
+  border: none;
+  height: 100%;
+  width: 290px;
+  margin: 0;
+  font-size: 24px;
+  outline: none;
+  padding:0 24px;
+  border-radius: 6px;
+}
+
+.input-tags img {
+  width: 20px;
+}
+
+.show-tags{
+  display: flex;
+  flex-direction: column;
+}
+
+.data-posts {
+  margin-top: 28px;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.table th, .table td {
+  text-align: center;
+  height: 49px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  background-color: #D9D9D9;
+  overflow: hidden;
+}
+
+.table table, .table th, .table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.action-cell {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-action {
+  border: none;
+  background-color: #D9D9D9;
+}
+
+.action-cell img {
+  width: 29px;
+}
+
+.form-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-actions Button {
+  margin-top: 26px;
+}
+
+.form-input {
+  margin-top: 16px;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-Pagination {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  color: black;
+  background-color: #D9D9D9;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 28px;
+  margin-left: 12px;
+  border-radius: 6px;
+}

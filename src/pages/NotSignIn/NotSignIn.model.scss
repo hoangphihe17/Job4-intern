@@ -1,0 +1,206 @@
+.container {
+  max-width: 1120px;
+  margin: 46px auto;
+}
+
+.header-content {
+  margin-top: 104px;
+  height: 522px;
+  background: url("../../assets/images/bg-header.svg") bottom right / auto no-repeat;
+}
+
+.content-title h3 {
+  width: 630px;
+  font-family: Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px;
+}
+
+.content-define {
+  width: 378px;
+  height: 119px;
+  margin-bottom: 64px;
+  margin-top: 64px;
+}
+
+.content-define span{
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+
+}
+
+.features {
+  margin-top:104px;
+
+}
+
+.fea-title {
+  text-align: center;
+  max-width: 575.12px;
+  margin: 0 auto;
+
+}
+
+.fea-title h2 {
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 52px;
+}
+
+.fea-title span {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.fea-actions {
+  margin-top: 52px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 76px;
+}
+
+@media(max-width: 1023px) {
+  .fea-actions{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+.testimonials {
+  background-color: #9C69E2;
+  border-radius: 50px;
+  padding: 94px 0 32px 0;
+  margin-top:104px;
+
+}
+
+.testi-title {
+  margin: 0 94px;
+}
+
+.testi-title span {
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #FFFFFF;
+
+}
+
+.testi-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 94px;
+}
+
+.footer {
+  margin-top: 104px;
+  max-width: 1600px;
+  margin: 104px auto;
+  padding-top: 104px;
+  border-top: 2px solid #9C69E2;
+}
+
+.footer-container {
+  max-width: 1120px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address-comp,.about-comp, .help-comp, .social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo span {
+  margin-left: 24px;
+}
+
+.address {
+  width: 240px;
+}
+
+.contact {
+  width: 150px;
+}
+
+.footer-logo span{
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  color: #212353;
+
+}
+
+.address{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #212353;
+  margin-top: 46px;
+}
+
+.contact {
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #212353;
+}
+
+.about-comp, .help-comp {
+  width: 76px;
+}
+
+.about-title, .help-title, .media-title{
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 25.6px;
+  color: #212353;
+}
+
+.about-contents, .help-contents, .medias {
+  margin-top: 32px;
+}
+
+.about-contents span, .help-contents span {
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #212353;
+}
+
+.medias {
+  display: flex;
+  justify-content: space-between;
+  width: 178px;
+}
+
+.copyright {
+  margin: 104px auto;
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright span {
+  width: 360px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color:#212353;
+}

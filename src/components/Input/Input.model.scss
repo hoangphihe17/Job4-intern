@@ -1,0 +1,23 @@
+.input {
+  border-radius: 6px;
+  border: 1px solid #000000;
+  width: 330px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+}
+
+.input input {
+  border: none;
+  height: 100%;
+  width: 290px;
+  margin: 0;
+  font-size: 24px;
+  outline: none;
+  padding:0 24px;
+  border-radius: 6px;
+}
+
+.input img {
+  width: 20px;
+}
